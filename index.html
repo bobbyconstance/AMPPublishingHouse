@@ -1,89 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Anthony Michael Perri — AMP Publishing House</title>
-  <style>
-    body {
-      background-color: black;
-      color: #00FF00;
-      font-family: "Courier New", monospace;
-      padding: 40px;
-      max-width: 800px;
-      margin: auto;
-    }
-    h1, h2, h3 {
-      color: #00FF00;
-    }
-    a {
-      color: #00FF00;
-      text-decoration: underline;
-    }
-    a:hover {
-      color: #00cc00;
-    }
-    ul {
-      list-style-type: square;
-      margin-left: 20px;
-    }
-    footer {
-      margin-top: 60px;
-      font-size: 0.9em;
-      text-align: center;
-      color: #00FF00;
-    }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AMP Publishing House — Anthony Michael Perri</title>
+<style>
+  body {
+    background-color: #000;
+    color: #0f0;
+    font-family: "Courier New", Courier, monospace;
+    margin: 2rem;
+    max-width: 700px;
+  }
+  a {
+    color: #0ff;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  header {
+    border-bottom: 2px solid #0f0;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  h1, h2 {
+    margin: 0.2rem 0;
+  }
+  .bio, .contact {
+    margin-bottom: 1.5rem;
+  }
+  .headshot {
+    float: right;
+    margin-left: 1rem;
+    width: 120px;
+    height: 120px;
+    border: 2px solid #0f0;
+    object-fit: cover;
+  }
+  .section-title {
+    color: #ff0;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  blockquote {
+    font-style: italic;
+    border-left: 4px solid #0f0;
+    margin-left: 0;
+    padding-left: 1rem;
+    color: #afa;
+  }
+  ul.archive-list {
+    list-style-type: square;
+    padding-left: 1.2rem;
+  }
+  footer {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    border-top: 1px solid #0f0;
+    padding-top: 1rem;
+  }
+</style>
 </head>
 <body>
 
+<header>
   <h1>Anthony Michael Perri</h1>
-  <p>Writer. Founder of AMP Publishing House.</p>
+  <h2>AMP Publishing House</h2>
+  <img src="https://via.placeholder.com/120x120?text=Headshot" alt="Anthony Michael Perri headshot" class="headshot" />
+</header>
 
-  <h2>About</h2>
-  <p>
-    AMP Publishing House is a small independent Canadian publisher. Officially registered with Library and Archives Canada.
-    This site features the full archive of writing by Anthony Michael Perri.
-  </p>
+<section class="bio">
+  <p>Writer and publisher registered with <strong>Library and Archives Canada</strong>. Dedicated to delivering authentic, powerful stories that resonate deeply.</p>
+</section>
 
-  <h2>Book</h2>
-  <p>
-    <strong>Lonely Boxer</strong> (2025) — Now available on 
-    <a href="https://www.amazon.ca/" target="_blank">Amazon</a>
-  </p>
+<section>
+  <h3 class="section-title">My Book</h3>
+  <p><a href="https://www.amazon.com/dp/B0XXXXXXX" target="_blank" rel="noopener noreferrer">Lonely Boxer</a> — Available on Amazon</p>
+  <blockquote>"A compelling debut that grabs you by the heart and never lets go." — Reviewer Name</blockquote>
+</section>
 
-  <h2>Archive of Writing</h2>
+<section>
+  <h3 class="section-title">Archive of Writing</h3>
+  <p>Below is a full archive of my published work. (PDFs coming soon.)</p>
 
-  <h3>Fiction</h3>
-  <ul>
-    <li>The Return of Prince Nazir (2018)</li>
-    <li>The Mistrustful Man of Málaga (2019)</li>
-    <li>Heaven for Lovers (2019)</li>
-    <li>The Construction Boys (2019)</li>
-    <li>The Eugenicist (2019)</li>
-    <li>Street-Walker (2019)</li>
-    <li>GOVERNMENT MAN (2019)</li>
-    <li>La Mente Neutral (2020)</li>
-    <li>The Colombia Report (2020)</li>
-    <li>Admitted (2020)</li>
-    <li>I WROTE THIS STORY FOR YOU (2025)</li>
+  <h4>Fiction</h4>
+  <ul class="archive-list">
+    <li><a href="fiction/The_Return_of_Prince_Nazir.pdf" target="_blank">The Return of Prince Nazir (2018)</a></li>
+    <li><a href="fiction/The_Mistrustful_Man_of_Malaga.pdf" target="_blank">The Mistrustful Man of Málaga (2019)</a></li>
+    <li><a href="fiction/Heaven_for_Lovers.pdf" target="_blank">Heaven for Lovers (2019)</a></li>
+    <li><a href="fiction/The_Construction_Boys.pdf" target="_blank">The Construction Boys (2019)</a></li>
+    <li><a href="fiction/The_Eugenicist.pdf" target="_blank">The Eugenicist (2019)</a></li>
+    <li><a href="fiction/Street_Walker.pdf" target="_blank">Street-Walker (2019)</a></li>
+    <li><a href="fiction/GOVERNMENT_MAN.pdf" target="_blank">GOVERNMENT MAN (2019)</a></li>
+    <li><a href="fiction/La_Mente_Neutral.pdf" target="_blank">La Mente Neutral (2020)</a></li>
+    <li><a href="fiction/The_Colombia_Report.pdf" target="_blank">The Colombia Report (2020)</a></li>
+    <li><a href="fiction/Admitted.pdf" target="_blank">Admitted (2020)</a></li>
+    <li><a href="fiction/I_WROTE_THIS_STORY_FOR_YOU.pdf" target="_blank">I WROTE THIS STORY FOR YOU (2025)</a></li>
   </ul>
 
-  <h3>Essays</h3>
-  <ul>
-    <!-- To be added -->
+  <h4>Essays</h4>
+  <ul class="archive-list">
+    <!-- Essays to be added -->
   </ul>
 
-  <h3>Poetry</h3>
-  <ul>
-    <!-- To be added -->
+  <h4>Poetry</h4>
+  <ul class="archive-list">
+    <!-- Poems to be added -->
   </ul>
+</section>
 
-  <h2>Contact</h2>
-  <p>Email: <a href="mailto:contact@amppublishing.ca">contact@amppublishing.ca</a></p>
+<section class="contact">
+  <h3 class="section-title">Contact Me</h3>
+  <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+  <p>Available for freelance work, collaborations, and speaking engagements.</p>
+</section>
 
-  <footer>
-    <p>© 2025 Anthony Michael Perri — AMP Publishing House</p>
-  </footer>
+<footer>
+  <p>© 2025 Anthony Michael Perri — AMP Publishing House</p>
+</footer>
 
 </body>
 </html>
